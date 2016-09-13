@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title></title>
+	<meta name="description" content="">
+	<meta name="author" content="Potsang Huang">
+
+	<link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+	<![endif]-->	
+</head>
+
+<body>
+	<div class="container" id="calculator">
+	  <div class="panel panel-info">
+		<div class="panel-heading text-right">
+		  <div id="display">
+			<h1 id="result"></h1>
+			<p id="formula"></P>
+		  </div>
+		</div>
+		<div class="panel-body">
+		  <table class="table text-center">
+			<tbody>
+			  <tr>
+				<td><button type="button" class="btn btn-danger btn-lg raised span11" value="off"><span class="glyphicon glyphicon-off"></span></button></td>
+				<td><button type="button" class="btn btn-warning btn-lg raised span11" value="ce">CE</button></td>
+				<td><button type="button" class="btn btn-warning btn-lg raised span11" value="c">C</button></td>
+				<td><button type="button" class="btn btn-primary btn-lg raised span11" value="/">/</button></td>
+			  </tr>
+			  <tr>
+				<td><button type="button" class="btn btn-primary btn-lg raised span11" value="7">7</button></td>
+				<td><button type="button" class="btn btn-primary btn-lg raised span11" value="8">8</button></td>
+				<td><button type="button" class="btn btn-primary btn-lg raised span11" value="9">9</button></td>
+				<td><button type="button" class="btn btn-primary btn-lg raised span11" value="*">*</button></td>
+			  </tr>
+			  <tr>
+				<td><button type="button" class="btn btn-primary btn-lg raised span11" value="4">4</button></td>
+				<td><button type="button" class="btn btn-primary btn-lg raised span11" value="5">5</button></td>
+				<td><button type="button" class="btn btn-primary btn-lg raised span11" value="6">6</button></td>
+				<td><button type="button" class="btn btn-primary btn-lg raised span11" value="-">-</button></td>
+			  </tr>
+			  <tr>
+				<td><button type="button" class="btn btn-primary btn-lg raised span11" value="1">1</button></td>
+				<td><button type="button" class="btn btn-primary btn-lg raised span11" value="2">2</button></td>
+				<td><button type="button" class="btn btn-primary btn-lg raised span11" value="3">3</button></td>
+				<td><button type="button" class="btn btn-primary btn-lg raised span11" value="+">+</button></td>
+			  </tr>
+			  <tr>
+				<td><button type="button" class="btn btn-primary btn-lg raised span11" value="0">0</button></td>
+				<td><button type="button" class="btn btn-primary btn-lg raised span11" value=".">.</button></td>
+				<td colspan="2"><button type="button" class="btn btn-primary btn-lg raised span12" value="=">=</button></td>
+			  </tr>
+			</tbody>
+		  </table>
+		</div>
+	  </div>
+	  <p class="text-center">Created by <a href="https://www.freecodecamp.com/potsang" target="_blank">Potsang Huang</a></p>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
